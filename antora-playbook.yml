@@ -12,6 +12,7 @@ asciidoc:
 
 antora:
   extensions:
+    - require: "@antora/lunr-extension" 
     - require: "@springio/antora-extensions/tabs-migration-extension"
 
 content:
@@ -25,5 +26,5 @@ content:
     
 ui:
   bundle:
-    url: https://github.com/openDAQ/antora-ui-spring/releases/download/1.4-opendaq/ui-bundle.zip
+    url: https://github.com/openDAQ/antora-ui-spring/releases/download/1.11-opendaq/ui-bundle.zip
     snapshot: true
