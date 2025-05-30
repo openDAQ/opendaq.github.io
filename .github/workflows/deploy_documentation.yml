@@ -33,6 +33,7 @@ jobs:
         run: |
           npm i @asciidoctor/tabs
           npm i @springio/antora-extensions
+          npm i @antora/lunr-extension
 
       - name: Run Antora
         run: |
